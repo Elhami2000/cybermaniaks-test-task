@@ -1,0 +1,127 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading {
+    height: 150px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    color: red;
+}
+
+.header-buttons {
+    height: 100px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header-buttons button {
+    height: 50px;
+    width: 150px;
+    border-radius: 15px;
+}
+
+.content-section {
+    width: 90%;
+    margin: 0 auto;
+    flex-grow: 1;
+    border: 2px solid black;
+}
+
+.login-section {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.label-alignment {
+
+    justify-content: center;
+    margin: 10px;
+}
+
+.label-alignment label {
+    padding-right: 50px;
+    width: 30px;
+}
+
+.label-alignment input {
+    border-radius: 0px;
+}
+
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.info-card {
+    width: 33%;
+    text-align: center;
+}
+
+.publish-contacts,
+.save-button {
+    float: right;
+    margin-right: 20px;
+}
+
+.add-btn {
+    float: right;
+    margin-right: 20%;
+}
+
+.user-info {
+    display: none;
+    /* Hide by default */
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.user-info-section {
+    width: 30%;
+}
+
+.content-section-button {
+    margin-left: 10px;
+    background: white;
+    border: 0;
+    text-decoration: underline;
+    color: #83bcfb;
+    cursor: pointer;
+}
+
+.user-info-section h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.user-info-section table {
+    width: 100%;
+}
+
+.user-info-section table td {
+    padding: 5px 0;
+}
+
+.user-info-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.user-info-section ul li {
+    margin-bottom: 5px;
+}
+
+.show-details .user-info {
+    display: flex;
+}
